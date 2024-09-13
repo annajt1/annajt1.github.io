@@ -1,0 +1,72 @@
+body {
+    margin: 0px 100px 0px 100px; /* Fixed incorrect commas in the margin shorthand */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: #566270; /* Corrected the color syntax and removed the extra colors */
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Fredoka One', sans-serif;
+    width: 16%;
+    text-shadow: 1px 1px 0px grey, -1px 1px 0px grey, 1px -1px 0px grey, -1px -1px 0px grey;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+body > header > nav > ul > li {
+    padding: 15px;
+    border: 1px solid white;
+    margin: 20px
+}
+
+body > header > nav > ul > li > a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+form {
+    text-align: center;
+}
+
+body > header {
+    background-color: lightpink;
+    color: aliceblue;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2, h3, h4 {
+    width: 70%;
+    margin: auto;
+}
+
+body > footer {
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+body > footer > ul > li > a {
+    color: white;
+    text-decoration: none;
+}    
