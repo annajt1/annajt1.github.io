@@ -43,7 +43,7 @@ form {
 }
 
 body > header {
-    background-color: lightpink;
+    background-color: rgb(152, 196, 230);
     color: aliceblue;
     display: flex;
     height: 12vh;
@@ -57,7 +57,7 @@ h2, h3, h4 {
 }
 
 body > footer {
-    background-color: lightpink;
+    background-color: rgb(152, 196, 230);
     display: flex;
     align-items: center;
     list-style: none;
@@ -70,3 +70,9 @@ body > footer > ul > li > a {
     color: white;
     text-decoration: none;
 }    
+.logo {
+    width: 200px; height: auto; position: absolute;
+    right: 0; /* Moves the image to the right edge of the page */
+    bottom; 2
+}
+
